@@ -1,0 +1,13 @@
+package com.tcs.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StoctRestController {
+	
+	
+	public String getMsg() {
+		return "Welcome to Stocke API";
+	}
+
+}

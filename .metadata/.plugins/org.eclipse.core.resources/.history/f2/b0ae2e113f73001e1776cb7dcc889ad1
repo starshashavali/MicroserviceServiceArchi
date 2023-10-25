@@ -1,0 +1,14 @@
+package com.tcs.config;
+
+import org.springframework.cloud.gateway.route.RouteLocator;
+import org.springframework.context.annotation.Bean;
+
+@org.springframework.context.annotation.Configuration
+public class Configuration {
+	@Bean
+	public RouteLocator getRoute() {
+		
+		
+	}
+
+}
